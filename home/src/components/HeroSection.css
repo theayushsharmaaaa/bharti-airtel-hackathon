@@ -1,0 +1,15 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .text-box {
+    width: 50%;
+  }
+  
+  .hero-image {
+    width: 50%;
+  }
+  
