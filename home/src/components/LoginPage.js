@@ -10,13 +10,13 @@ const LoginPage = () => {
         <h1 className="mb-4">Login to GuruLink</h1>
         <button
           className="btn btn-primary btn-lg mb-3 d-block w-100"
-          onClick={() => navigate('./login/loginSchool')}
+          onClick={() => navigate('/login/loginSchool')}
         >
           Login as School
         </button>
         <button
           className="btn btn-secondary btn-lg d-block w-100"
-          onClick={() => navigate('./login/loginTeach')}
+          onClick={() => navigate('/login/loginTeach')}
         >
           Login as Teacher
         </button>

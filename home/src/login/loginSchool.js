@@ -8,5 +8,5 @@ const LoginSchool = () => {
     </div>
   );
 };
-
+export default LoginSchool;
 
