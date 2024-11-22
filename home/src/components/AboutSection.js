@@ -1,20 +1,28 @@
 import React from 'react';
-import './AboutSection.css';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="about-section">
-      <div className="about-container">
-        <h2>About Us</h2>
-        <p>
+    <section id="about" className="py-5 bg-light">
+      <div className="container">
+        {/* About Us Header */}
+        <h2 className="text-center mb-4">About Us</h2>
+        <p className="text-muted text-center mb-5">
           GuruLink is an innovative EdTech platform dedicated to addressing teacher shortages, particularly in rural and underserved areas...
         </p>
-        <div className="features">
-          <h3>Key Features</h3>
-          <ul>
-            <li>Instant teacher requests based on subject, grade level, and board.</li>
-            <li>Real-time tracking and selection of substitutes.</li>
-            <li>Cloud-based session recording for up to one year.</li>
+
+        {/* Key Features */}
+        <div>
+          <h3 className="mb-3">Key Features</h3>
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">
+              Instant teacher requests based on subject, grade level, and board.
+            </li>
+            <li className="list-group-item">
+              Real-time tracking and selection of substitutes.
+            </li>
+            <li className="list-group-item">
+              Cloud-based session recording for up to one year.
+            </li>
           </ul>
         </div>
       </div>
